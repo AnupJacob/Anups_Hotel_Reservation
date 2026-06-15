@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      $ECR_REPOSITORY: "anups_hotel_reservations"
+      ECR_REPOSITORY: "anups_hotel_reservations"
       IMAGE_TAG: ${{github.run_number}}.0.0-test
       ECR_REGISTRY: "590183772773.dkr.ecr.eu-west-1.amazonaws.com"
 
